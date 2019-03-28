@@ -1,5 +1,26 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 110%;
+}
+
 body {
-  color: cornflowerblue;
-  background-color: beige;
+  height: 99vh;
+  background: url('https://images.unsplash.com/photo-1461263895214-7761d3a942de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1384&q=80') no-repeat center center fixed;
   text-align: center;
+}
+
+h3 {
+  font-size: 1.4rem;
+  letter-spacing: .5vw;
+  line-height: 2.5;
+  padding: 10vw 1vw 3vw 1vw;
+}
+
+p {
+  font-size: .8rem;
+  font-style: italic;
 }
